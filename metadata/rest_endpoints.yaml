@@ -1,1 +1,18 @@
-[]
+- comment: ""
+  definition:
+    query:
+      collection_name: allowed-queries
+      query_name: author
+  methods:
+    - GET
+  name: author
+  url: author
+- comment: ""
+  definition:
+    query:
+      collection_name: allowed-queries
+      query_name: author_by_pk
+  methods:
+    - GET
+  name: author_by_pk
+  url: author/:id

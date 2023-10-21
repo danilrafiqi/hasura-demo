@@ -1,1 +1,21 @@
-[]
+- name: allowed-queries
+  definition:
+    queries:
+      - name: author
+        query: |
+          query author {
+            author {
+              id
+              name
+              rating
+            }
+          }
+      - name: author_by_pk
+        query: |
+          query author_by_pk ($id: uuid!) {
+            author_by_pk(id: $id) {
+              id
+              name
+              rating
+            }
+          }
