@@ -1,3 +1,4 @@
 - "!include public_address.yaml"
 - "!include public_article.yaml"
 - "!include public_author.yaml"
+- "!include public_rumahdinas.yaml"
